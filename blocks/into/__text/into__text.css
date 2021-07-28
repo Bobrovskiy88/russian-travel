@@ -1,0 +1,15 @@
+.into__text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.08px;
+    margin: 40px 0 33px 0;
+    padding: 0;
+}
+
+@media (min-width: 240px) and (max-width: 480px) {
+    .into__text {
+        margin-bottom: 34px;
+    }
+}
