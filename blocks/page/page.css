@@ -5,6 +5,9 @@
     padding: 0;
     background-color: #2A2C2F;
     color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
