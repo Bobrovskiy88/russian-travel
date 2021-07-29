@@ -1,7 +1,7 @@
 /* normolize*/
 @import url('../vendor/normolize');
 /* font */
-@import url('../vendor/fonts/inter/inter.css');
+@import url('../vendor/fonts/fonts.css');
 /* blocks */
     /* page */
 @import url('../blocks/page/page.css');
