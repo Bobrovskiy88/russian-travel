@@ -17,9 +17,9 @@
 
 @media (min-width: 481px) and (max-width: 1023px) {
     .header {
-        width: 90.625%;
-        margin-left: 4.68%;
-        margin-right: 4.68%;
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
