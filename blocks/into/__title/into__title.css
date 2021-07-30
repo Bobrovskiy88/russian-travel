@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .into__title {
         font-size: 32px;
         line-height: 35px;
