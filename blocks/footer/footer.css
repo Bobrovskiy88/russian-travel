@@ -6,20 +6,20 @@
     margin: 92px 48px 24px 48px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .footer {
         width: 928px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .footer {
         width: 720px;
         margin: 88px 24px 24px 24px;
     }
 }
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .footer {
         width: 186px;
         display: flex;

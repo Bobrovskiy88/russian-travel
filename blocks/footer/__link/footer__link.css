@@ -16,7 +16,7 @@
     transition: 2s;
 }
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .footer__link {
         margin: 32px 0 0 0;
     }

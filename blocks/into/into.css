@@ -4,13 +4,13 @@
     padding: 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .into {
         margin-left: 48px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .into {
         margin-top: 88px;
         margin-left: 24px;
@@ -18,7 +18,7 @@
     }
 }
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .into {
         width: 288px;
         margin: 64px 16px 64px 16px;

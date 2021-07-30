@@ -5,18 +5,20 @@
     padding: 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .lead {
+        max-width: 928px;
         margin: 48px 48px 0 48px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .lead {
+        max-width: 768px;
         margin: 48px 0 0 0;
     }
 }
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .lead {
         max-width: 320px;
         margin: 48px 0 0 0;

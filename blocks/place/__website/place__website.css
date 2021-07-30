@@ -5,13 +5,19 @@
     place-self: end start;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .place__website {
         margin-left: 0;
     }
 }
+@media screen and (max-width: 1023px) {
+    .place__website {
+        width: 352px;
+        margin: 0 24px 0 0;
+    }
+}
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .place__website {
         margin-left: 16px;
         margin-right: 16px;

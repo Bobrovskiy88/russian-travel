@@ -11,19 +11,19 @@
     z-index: 1;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .cover__subtitle {
         margin: 0 332px 195px 332px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .cover__subtitle {
         margin: 0 204px 115px 204px;
     }
 }
 
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         width: 288px;
         margin: 0 16px 33px 16px;

@@ -9,20 +9,20 @@
     background-size: contain;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .lead__image {
         width: 928px;
         height: 580px;
     }    
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .lead__image {
         width: 768px;
         height: 480px;
     }
 }
-@media (min-width: 240px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .lead__image {
         width: 316px;
         height: 200px;
