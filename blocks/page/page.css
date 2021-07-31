@@ -1,6 +1,7 @@
 .page {
     display: block;
-    width: 1280px;
+    /*overflow-x: hidden; */
+    max-width: 1280px;
     margin: 0 auto 0 auto;
     padding: 0;
     background-color: #2A2C2F;
@@ -8,24 +9,23 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    
 }
 
 @media screen and (max-width: 1279px) {
     .page {
-        width: 1024px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .page {
-        width: 768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .page {
-    width: 320px;
+    max-width: 320px;
 
     }
 }
