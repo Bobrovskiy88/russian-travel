@@ -1,6 +1,5 @@
 .place__website {
     width: 456px;
-    height: 46px;
     margin: 0 28px 0 0;
     place-self: end start;
 }

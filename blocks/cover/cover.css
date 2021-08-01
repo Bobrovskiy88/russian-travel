@@ -1,9 +1,36 @@
 .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     width: 1184px;
+    height: auto;
     margin: 0 auto 0 auto;
     padding: 0;
+    background-image: url('../../images/railway_station.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    z-index: 0;
 }
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .3;
+    background-color: #2A2C2F;
+    z-index: -1;
+    transition: all 2s;
+}
+  
+.cover:hover:before {
+    background-color: #2A2C2F;
+    opacity: .8;
+  }
 
 @media screen and (max-width: 1279px) {
     .cover {

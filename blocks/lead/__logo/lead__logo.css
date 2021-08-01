@@ -1,0 +1,6 @@
+.lead__logo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto 0 auto;
+}

@@ -1,5 +1,5 @@
 /* normolize*/
-@import url('../vendor/normolize');
+@import url('../vendor/normolize.css');
 /* font */
 @import url('../vendor/fonts/fonts.css');
 /* blocks */
@@ -10,17 +10,19 @@
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link/_place/header__lang-link_place_active.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
     /* lead */
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
-@import url('../blocks/lead/image/lead__image.css');
+@import url('../blocks/lead/__logo/lead__logo.css');
+@import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 /* into */
 @import url('../blocks/into/into.css');
 @import url('../blocks/into/__title/into__title.css');
 @import url('../blocks/into/__text/into__text.css');
+@import url('../blocks/into/__lists/into__lists.css');
 @import url('../blocks/into/__list/into__list.css');
 /* photo-grid*/
 @import url('../blocks/photo-grid/photo-grid.css');
