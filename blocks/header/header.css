@@ -1,7 +1,7 @@
 .header {
     margin: 0 auto 0 auto;
     padding: 0;
-    width: 1184px;
+    max-width: 1280px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -10,14 +10,14 @@
 
 @media screen and (max-width: 1279px) {
     .header {
-        width: 928px;
+        max-width: 1024px;
     }
 
 }
 
 @media screen and (max-width: 1023px) {
     .header {
-        width: 720px;
+        width: 768px;
     }
 }
 
