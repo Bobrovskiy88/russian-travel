@@ -1,9 +1,15 @@
 .cover__overlay {
-  position: absolute;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
- z-index: 2;
-  
+  text-decoration: none;
+  color: #fff;
 }
+.cover__overlay:active, .cover__overlay:hover {
+  text-decoration: none;
+}
+

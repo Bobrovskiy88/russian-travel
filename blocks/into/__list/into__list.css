@@ -1,13 +1,9 @@
 .into__list {
-    display: inline;
     font-family: 'Inter', 'Arial', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
     margin: 0;
     padding: 0;
-}
-.into__list:first-child {
-    font-weight: 700;
 }
