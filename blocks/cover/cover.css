@@ -1,7 +1,6 @@
 .cover {
     position: relative;
-    width: 1184px;
-    height: auto;
+    max-width: 1184px;
     margin: 0 auto 0 auto;
     padding: 0;
     background-image: url('../../images/railway_station.jpg');
@@ -9,6 +8,7 @@
     background-position: center center;
     background-size: contain;
     z-index: 0;
+    box-sizing: border-box;
 }
 
 .cover::before {
