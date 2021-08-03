@@ -14,9 +14,7 @@
         width: 352px;
         margin: 0 24px 0 0;
         height: 46px;
-        margin-top: -10px;
-        align-content: start;
-        justify-self: start;
+        align-content: end;
     }
 }
 
