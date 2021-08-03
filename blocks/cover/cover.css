@@ -8,7 +8,6 @@
     background-position: center center;
     background-size: contain;
     z-index: 0;
-    box-sizing: border-box;
 }
 
 .cover::before {
