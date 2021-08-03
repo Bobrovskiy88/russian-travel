@@ -1,7 +1,7 @@
 .place__website {
     width: 456px;
     margin: 0 28px 0 0;
-    place-self: end start;
+   place-self: end start;
 }
 
 @media screen and (max-width: 1279px) {
@@ -13,6 +13,10 @@
     .place__website {
         width: 352px;
         margin: 0 24px 0 0;
+        height: 46px;
+        margin-top: -10px;
+        align-content: start;
+        justify-self: start;
     }
 }
 
@@ -21,5 +25,6 @@
         margin-left: 16px;
         margin-right: 16px;
         width: 288px;
+        margin-top: 0;
     }
 }

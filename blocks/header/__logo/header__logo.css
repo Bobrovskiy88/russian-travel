@@ -8,6 +8,11 @@
     margin: 28px 0 0 48px;
     padding: 0;
 }
+@media screen and (max-width: 1023px) {
+    .header__logo {
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 767px) {
     .header__logo {
         width: 142px;
